@@ -3,7 +3,7 @@
 import { createAgentSession, ModelRuntime, SessionManager } from "@earendil-works/pi-coding-agent";
 
 const modelRuntime = await ModelRuntime.create();
-const model = modelRuntime.getModel("google", "gemini-3.6-flash");
+const model = modelRuntime.getModel("anthropic", "claude-haiku-4-5");
 
 const { session } = await createAgentSession({
   model,
