@@ -15,8 +15,8 @@ myself."
    ```
    bun install
    ```
-3. **Add a model provider API key.** Create a `.env` file in the repo root
-   (already git-ignored) with at least one of:
+3. **Add a model provider API key.** Copy `.env.example` to `.env` (already
+   git-ignored) and fill in at least:
    ```
    ANTHROPIC_API_KEY=sk-ant-...
    ```
