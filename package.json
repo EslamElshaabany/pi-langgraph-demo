@@ -11,7 +11,17 @@
     "q5": "bun run src/q5-tool-restriction.ts",
     "q6": "bun run src/q6-approval.ts",
     "q7": "bun run src/q7-interrupt.ts",
-    "q8": "bun run src/q8-checkpoint.ts"
+    "q8": "bun run src/q8-checkpoint.ts",
+    "q9": "bun run src/q9-extension-ui-inprocess.ts",
+    "q10": "bun run src/q10-dynamic-routing.ts",
+    "q11": "bun run src/q11-dynamic-seam-and-gate.ts",
+    "q12": "bun run src/q12-fallback.ts",
+    "q13": "bun run src/q13-fanout-mechanics.ts",
+    "q14": "bun run src/q14-session-isolation.ts",
+    "q15": "bun run src/q15-state-collision.ts",
+    "q16": "bun run src/q16-same-agent-concurrent.ts",
+    "q17": "bun run src/q17-approval-concurrent.ts",
+    "q18": "bun run src/q18-wave-completion.ts"
   },
   "dependencies": {
     "@earendil-works/pi-ai": "^0.84.4",
