@@ -83,6 +83,7 @@ bunx tsc --noEmit
 | `q16-same-agent-concurrent.ts` | Two concurrent instances of the same agent id | `FINDINGS-4.md` |
 | `q17-approval-concurrent.ts` | Approval gate under concurrency, cross-talk? | `FINDINGS-4.md` |
 | `q18-wave-completion.ts` | Wave completion timing, partial failure behavior | `FINDINGS-4.md` |
+| `q19-router-quality.ts` | Real LLM router selection quality on the locked demo scenario | `FINDINGS-5.md` |
 
 `.pi/extensions/gate.ts` is the shared tool-approval extension used by
 `q9`, `q11`, and `q17` (see setup step 4 above). `generated/` is scratch

@@ -21,7 +21,8 @@
     "q15": "bun run src/q15-state-collision.ts",
     "q16": "bun run src/q16-same-agent-concurrent.ts",
     "q17": "bun run src/q17-approval-concurrent.ts",
-    "q18": "bun run src/q18-wave-completion.ts"
+    "q18": "bun run src/q18-wave-completion.ts",
+    "q19": "bun run src/q19-router-quality.ts"
   },
   "dependencies": {
     "@earendil-works/pi-ai": "^0.84.4",
